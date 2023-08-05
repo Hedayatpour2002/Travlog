@@ -1,0 +1,72 @@
+@media (min-width: 576px) {
+  .container {
+    width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    width: 720px;
+  }
+  .navbar__left {
+    width: 50%;
+  }
+  .navbar__left {
+    flex-direction: row-reverse;
+  }
+  .menu--active {
+    height: 39rem;
+  }
+  .entry--mobile {
+    display: none;
+  }
+  .entry--tablet {
+    display: flex;
+    padding-bottom: 0;
+    margin: 0;
+  }
+  /* .header__shape {
+    left: -50%;
+    top: -50%;
+  } */
+}
+@media (min-width: 992px) {
+  .container {
+    width: 960px;
+  }
+
+  .hamburger-btn {
+    display: none;
+  }
+  .navbar__left {
+    flex-direction: row;
+    width: 66%;
+  }
+  .menu {
+    display: flex;
+    background-color: transparent;
+    height: auto;
+    flex-direction: row;
+    position: static;
+    transform: translateX(0);
+    /* min-width: auto;
+    width: auto;
+    max-width: auto; */
+  }
+  .menu__item {
+    margin: 1rem;
+    width: fit-content;
+  }
+  .openMenuCover {
+    display: none;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1140px;
+  }
+}
+@media (min-width: 1400px) {
+  .container {
+    width: 1370px;
+  }
+}
