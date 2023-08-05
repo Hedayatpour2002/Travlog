@@ -10,3 +10,7 @@
   font-family: "CircularStd-Book";
   src: url("../fonts/Circular/CircularStd-Book.otf") format("opentype");
 }
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter/Inter-Regular.ttf") format("truetype");
+}
