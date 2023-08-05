@@ -86,7 +86,6 @@ button {
   margin-right: auto;
   margin-left: auto;
   position: relative;
-  height: 1000vh;
 }
 
 /* header */
@@ -336,9 +335,6 @@ button {
 }
 .hero__btn--watch:hover svg {
   transform: rotate(1turn) scale(1.2);
-}
-.hero__btn--watch:hover span {
-  text-decoration: underline;
 }
 
 .header__shape {
