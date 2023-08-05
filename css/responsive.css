@@ -46,6 +46,10 @@
     justify-content: center;
     margin: 4.3rem 0;
   }
+
+  .header__shape {
+    display: block;
+  }
 }
 @media (min-width: 992px) {
   .container {
@@ -66,6 +70,8 @@
     flex-direction: row;
     position: static;
     transform: translateX(0);
+    visibility: visible;
+    border: none;
   }
   .menu__item {
     margin: 1rem;
@@ -87,6 +93,11 @@
   .hero__title {
     font-size: 6.9rem;
     line-height: 8.2rem;
+  }
+
+  .header__shape {
+    left: -6.5rem;
+    bottom: 0;
   }
 }
 @media (min-width: 1200px) {
