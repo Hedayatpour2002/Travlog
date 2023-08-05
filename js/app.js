@@ -3,6 +3,18 @@ let hamburgerElem = $.querySelector(".hamburger-btn");
 let menuElem = $.querySelector(".menu");
 let cover = $.querySelector(".openMenuCover");
 let isMobileMenuOpen = false;
+
+let menuLinkElem = $.querySelectorAll(".menu__link");
+
+menuLinkElem.forEach((element) => {
+  element.addEventListener("click", () => {
+    $.querySelector(".menu__link--active").classList.remove(
+      "menu__link--active"
+    );
+    element.classList.add("menu__link--active");
+  });
+});
+
 ////////////////////////////////
 hamburgerElem.addEventListener("click", () => {
   // if (isMobileMenuOpen) {
