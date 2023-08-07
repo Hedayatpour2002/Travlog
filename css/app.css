@@ -91,6 +91,7 @@ button {
 
 /* header */
 .header {
+  position: relative;
   display: inline;
 }
 .navbar__svg {
@@ -422,4 +423,45 @@ button {
   color: var(--Black50);
 }
 
+/* explore */
+.explore {
+  padding: 3.2rem 0rem;
+}
+.explore__wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.explore__wrapper-text {
+}
+.explore__txt {
+  letter-spacing: 0.32rem;
+  text-transform: uppercase;
+}
+.explore__title {
+  font-size: 3.2rem;
+  margin-top: 1.6rem;
+}
+.explore__buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 3.2rem 0;
+}
+.explore__pre {
+}
+.explore__next {
+}
+.explore__btn {
+  width: 6.4rem;
+  height: 6.4rem;
+  border-radius: 50%;
+  border: 1px solid rgba(25, 24, 37, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.explore__btn--active {
+  background: var(--primary, #5d50c6);
+}
 /* animations */

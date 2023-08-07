@@ -78,6 +78,19 @@
     font-size: 2.8rem;
     padding-top: 3.2rem;
   }
+
+  /* explore */
+
+  .explore__buttons {
+    justify-content: center;
+    gap: 3.2rem;
+  }
+  .explore__txt {
+    font-size: 2.3rem;
+  }
+  .explore__title {
+    font-size: 4rem;
+  }
 }
 @media (min-width: 992px) {
   .container {
@@ -133,6 +146,16 @@
   }
   /* services */
   .services__title {
+    font-size: 4.4rem;
+  }
+
+  /* explore */
+  .explore__wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+  }
+  .explore__title {
     font-size: 4.4rem;
   }
 }
