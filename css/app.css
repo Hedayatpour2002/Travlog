@@ -91,7 +91,7 @@ button {
 
 /* header */
 .header {
-  position: relative;
+  display: inline;
 }
 .navbar__svg {
   position: absolute;
