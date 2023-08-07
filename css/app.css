@@ -21,6 +21,7 @@ body {
   font-family: "CircularStd-Bold"; /* todo */
   line-height: 1.6;
   font-size: 1.6rem;
+  overflow-x: hidden;
 }
 
 /* 
@@ -92,7 +93,7 @@ button {
 .header {
   position: relative;
 }
-.navbar__shape {
+.navbar__svg {
   position: absolute;
   top: -40rem;
   left: -40rem;
@@ -342,6 +343,26 @@ button {
   position: absolute;
   bottom: 3rem;
   left: -3rem;
+}
+
+/* brands */
+
+.brands {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  position: relative;
+}
+.brands__img {
+  width: 30%;
+}
+.brands__shape {
+  position: absolute;
+  right: -70rem;
+  top: -35rem;
+  z-index: -1;
 }
 
 /* animations */
