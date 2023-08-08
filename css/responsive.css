@@ -154,14 +154,34 @@
     flex-direction: row;
     justify-content: space-between;
     text-align: left;
+    margin-bottom: 6.4rem;
   }
   .explore__title {
     font-size: 4.4rem;
+  }
+
+  .explore__cards {
+    flex-direction: row;
+  }
+  .explore__image {
+    height: 31.4rem;
+  }
+  .explore__img {
+    width: auto;
+  }
+  .explore__buttons {
+    margin: 0;
+  }
+  .explore {
+    padding: 6.4rem 0rem;
   }
 }
 @media (min-width: 1200px) {
   .container {
     width: 1140px;
+  }
+  .explore__img {
+    width: 100%;
   }
 }
 @media (min-width: 1400px) {
