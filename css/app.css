@@ -544,6 +544,7 @@ button {
   text-align: center;
 }
 .travel__desc {
+  position: relative;
 }
 .travel__txt {
   letter-spacing: 0.32rem;
@@ -559,6 +560,15 @@ button {
   line-height: 2.56rem;
   color: var(--Black50);
 }
+.travel__shape {
+  display: none;
+  position: absolute;
+  right: -3rem;
+  bottom: -4rem;
+  width: 7rem;
+  height: 7rem;
+}
+
 .travel__items {
   display: flex;
   flex-direction: column;

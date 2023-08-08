@@ -194,8 +194,8 @@
   }
 
   /* travel */
-  
-  .travel__img{
+
+  .travel__img {
     width: 70%;
   }
   .travel__title {
@@ -230,6 +230,10 @@
   }
   .travel__desc {
     text-align: left;
+  }
+  .travel__shape {
+    display: block;
+
   }
 }
 @media (min-width: 1400px) {
