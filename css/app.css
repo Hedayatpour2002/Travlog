@@ -533,6 +533,7 @@ button {
 .travel {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 6.4rem;
   margin-top: 3.2rem;
 }

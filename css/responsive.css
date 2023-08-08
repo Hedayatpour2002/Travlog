@@ -194,6 +194,10 @@
   }
 
   /* travel */
+  
+  .travel__img{
+    width: 70%;
+  }
   .travel__title {
     font-size: 4.4rem;
   }
