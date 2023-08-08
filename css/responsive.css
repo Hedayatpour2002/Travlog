@@ -91,6 +91,23 @@
   .explore__title {
     font-size: 4rem;
   }
+
+  /* travel */
+  .travel__txt {
+    font-size: 2.3rem;
+  }
+  .travel__title {
+    font-size: 4rem;
+  }
+  .travel__items {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3.2rem;
+    padding: 6.4rem 0;
+  }
+  .travel__item {
+    width: calc(50% - 1.6rem);
+  }
 }
 @media (min-width: 992px) {
   .container {
@@ -175,6 +192,15 @@
   .explore {
     padding: 6.4rem 0rem;
   }
+
+  /* travel */
+  .travel__title {
+    font-size: 4.4rem;
+  }
+  .travel__items {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
 }
 @media (min-width: 1200px) {
   .container {
@@ -182,6 +208,24 @@
   }
   .explore__img {
     width: 100%;
+  }
+
+  /* travel */
+  .travel {
+    flex-direction: row;
+    align-items: center;
+    gap: 0;
+    padding-top: 6rem;
+  }
+  .travel__img {
+    max-width: 60%;
+  }
+  .travel__items {
+    flex-wrap: wrap;
+    padding-top: 3.2rem;
+  }
+  .travel__desc {
+    text-align: left;
   }
 }
 @media (min-width: 1400px) {

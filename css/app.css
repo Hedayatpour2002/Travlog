@@ -528,4 +528,54 @@ button {
   gap: 0.8rem;
   margin-top: 3.2rem;
 }
+
+/* travel */
+.travel {
+  display: flex;
+  flex-direction: column;
+  gap: 6.4rem;
+  margin-top: 3.2rem;
+}
+.travel__img {
+  width: 100%;
+}
+.travel__wrapper {
+  text-align: center;
+}
+.travel__desc {
+}
+.travel__txt {
+  letter-spacing: 0.32rem;
+  text-transform: uppercase;
+}
+.travel__title {
+  font-size: 3.2rem;
+  margin-top: 1.6rem;
+  margin-bottom: 3.2rem;
+}
+.travel__detaile {
+  font-family: Inter;
+  line-height: 2.56rem;
+  color: var(--Black50);
+}
+.travel__items {
+  display: flex;
+  flex-direction: column;
+  padding: 3.2rem 0;
+  gap: 1.6rem;
+}
+.travel__item {
+  padding: 3.2rem;
+  border-radius: 3.2rem;
+  border: 1px solid rgba(25, 24, 37, 0.1);
+  background: #fff;
+}
+.travel__item__number {
+  color: var(--Orange);
+  font-size: 3.5rem;
+}
+.travel__item__name {
+  font-family: Inter;
+  font-size: 1.8rem;
+}
 /* animations */
