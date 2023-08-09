@@ -108,6 +108,21 @@
   .travel__item {
     width: calc(50% - 1.6rem);
   }
+
+  /* offer */
+  .offer {
+    padding: 6.4rem 0;
+    gap: 7rem;
+  }
+  .offer__text {
+    font-size: 2.3rem;
+  }
+  .offer__title {
+    font-size: 4rem;
+  }
+  .travel__detaile {
+    font-size: 1.8rem;
+  }
 }
 @media (min-width: 992px) {
   .container {
@@ -205,6 +220,19 @@
     flex-wrap: nowrap;
     justify-content: space-between;
   }
+
+  /* offer  */
+  .offer__banner {
+    width: 70%;
+    margin: auto;
+  }
+  .offer__title {
+    font-size: 4.4rem;
+  }
+  .offer__items {
+    display: flex;
+    flex-direction: row;
+  }
 }
 @media (min-width: 1200px) {
   .container {
@@ -233,7 +261,25 @@
   }
   .travel__shape {
     display: block;
+  }
 
+  /* offer */
+  .offer {
+    flex-direction: row-reverse;
+    align-items: center;
+    text-align: left;
+    gap: 1rem;
+  }
+  .offer__banner {
+    min-width: 50%;
+  }
+  .offer__items {
+    flex-direction: column;
+    padding-right: 3.2rem;
+  }
+  .offer__item {
+    flex-direction: row;
+    align-items: center;
   }
 }
 @media (min-width: 1400px) {

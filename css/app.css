@@ -589,4 +589,75 @@ button {
   font-family: Inter;
   font-size: 1.8rem;
 }
+
+/* offer */
+.offer {
+  display: flex;
+  flex-direction: column;
+  padding: 3.2rem 0;
+  gap: 6.4rem;
+  text-align: center;
+}
+.offer__banner {
+}
+.offer__img {
+  width: 100%;
+}
+.offer__desc {
+}
+.offer__text {
+  letter-spacing: 0.32rem;
+  text-transform: uppercase;
+}
+.offer__title {
+  font-size: 3.2rem;
+  margin-top: 1.6rem;
+}
+.offer__detaile {
+  font-family: Inter;
+  color: var(--Black50);
+  margin: 3.2rem 0;
+}
+
+.offer__items {
+}
+.offer__item {
+  display: flex;
+  flex-direction: column;
+  padding: 3.2rem;
+  background: #fff;
+  border-radius: 3.2rem;
+  text-align: left;
+  gap: 3.2rem;
+}
+.offer__item:nth-child(2) {
+  border: 1px solid rgba(25, 24, 37, 0.1);
+}
+.offer__item__image {
+  width: 6.5rem;
+  height: 6.5rem;
+  border-radius: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.offer__item__image--orange {
+  background: var(--Orange);
+}
+.offer__item__image--yellow {
+  background: #facd49;
+}
+.offer__item__image--pink {
+  background: var(--Secondary);
+}
+.offer__item__title {
+  margin-bottom: 0.8rem;
+  font-size: 2.3rem;
+}
+.offer__item__detaile {
+  font-family: Inter;
+  font-size: 1.8rem;
+  color: var(--Black50);
+}
+
 /* animations */
