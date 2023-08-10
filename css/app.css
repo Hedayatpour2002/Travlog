@@ -660,4 +660,66 @@ button {
   color: var(--Black50);
 }
 
+/* subscribe */
+.subscribe {
+  padding: 6.4rem 3.2rem;
+  border-radius: 3.2rem;
+  background: rgba(250, 205, 73, 0.08);
+  text-align: center;
+  position: relative;
+}
+.subscribe__shape {
+  display: none;
+  position: absolute;
+  top: -3.5rem;
+  left: -3.5rem;
+}
+.subscribe__txt {
+  letter-spacing: 0.32rem;
+  text-transform: uppercase;
+}
+.subscribe__title {
+  font-size: 3.2rem;
+  margin-top: 3.2rem;
+  margin-bottom: 6.4rem;
+}
+.subscribe__form {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+.subscribe__input-wrapper {
+  padding: 2.4rem 3.2rem;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  border-radius: 3.2rem;
+  flex-grow: 1;
+  border: 0.3rem solid transparent;
+}
+.subscribe__input-wrapper--red {
+  border: 0.3rem solid red;
+}
+.subscribe__input {
+  border: none;
+  outline: none;
+  font-size: 1.8rem;
+}
+
+.subscribe__input::placeholder {
+  font-size: 1.4rem;
+  color: rgba(25, 24, 37, 0.75);
+  font-family: inherit;
+}
+.subscribe__btn {
+  padding: 2.4rem 6.4rem;
+  background: var(--Primary);
+  color: #fff;
+  border-radius: 1.6rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 /* animations */

@@ -123,6 +123,33 @@
   .travel__detaile {
     font-size: 1.8rem;
   }
+
+  /* subscribe */
+  .subscribe__txt {
+    font-size: 2.3rem;
+  }
+  .subscribe__title {
+    font-size: 4rem;
+  }
+  .subscribe__form {
+    flex-direction: row;
+  }
+  .subscribe__input::placeholder {
+    font-size: 2.3rem;
+  }
+  .subscribe__btn {
+    font-size: 2.3rem;
+  }
+  .subscribe__input {
+    font-size: 2.5rem;
+  }
+  .subscribe__input-wrapper svg {
+    width: 3.2rem;
+    height: 3.2rem;
+  }
+  .subscribe__shape{
+    display: block;
+  }
 }
 @media (min-width: 992px) {
   .container {
@@ -232,6 +259,12 @@
   .offer__items {
     display: flex;
     flex-direction: row;
+  }
+
+  /* subscribe */
+
+  .subscribe__title {
+    font-size: 4.4rem;
   }
 }
 @media (min-width: 1200px) {

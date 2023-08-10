@@ -72,3 +72,22 @@ explorePre.addEventListener("click", () => {
   </svg>
   `;
 });
+
+// subscribe
+let inputWrapperElem = $.querySelector(".subscribe__input-wrapper");
+let inputElem = $.querySelector(".subscribe__input");
+let subBtnElm = $.querySelector(".subscribe__btn");
+let emailRegex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+subBtnElm.addEventListener("click", (e) => {
+  e.preventDefault();
+  if (emailRegex.test(inputElem.value)) {
+    inputWrapperElem.classList.remove("subscribe__input-wrapper--red");
+    alert("subscribed");
+    inputElem.value = "";
+  } else {
+    inputWrapperElem.classList.add("subscribe__input-wrapper--red");
+  }
+});
+inputElem.addEventListener("keydown", () => {
+  inputWrapperElem.classList.remove("subscribe__input-wrapper--red");
+});
