@@ -11,6 +11,7 @@
 html {
   box-sizing: border-box;
   font-size: 10px;
+  overflow-x: hidden;
 }
 *,
 *::after,
@@ -721,5 +722,83 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/* footer */
+.footer {
+  display: flex;
+  flex-direction: column;
+  padding: 3.2rem 0rem;
+  gap: 6.4rem;
+}
+.footer__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+.footer__logo {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+.footer__img {
+}
+.footer__name {
+  font-size: 2.4rem;
+}
+.footer__desc {
+  color: var(--Black50);
+  list-style: 2.65rem;
+}
+.footer__social {
+  display: flex;
+  gap: 3.2rem;
+}
+
+.footer__items {
+  display: flex;
+  flex-direction: column;
+  gap: 6.4rem;
+}
+.footer__item {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+.footer__item--active {
+}
+.footer__item--active .footer__item__links {
+  height: auto;
+}
+.footer__item--active .footer__item__title svg {
+  transform: rotate(-180deg);
+}
+.footer__item--active .footer__item__title {
+  text-decoration: underline;
+}
+.footer__item__title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 2.3rem;
+  cursor: pointer;
+}
+.footer__item__title svg {
+  transition: all 0.3s;
+}
+.footer__item__links {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+  height: 0;
+  overflow: hidden;
+}
+.footer__item__link {
+  font-family: Inter;
+  font-size: 1.8rem;
+  color: rgba(25, 24, 37, 0.75);
+}
+.footer__item__link:hover {
+  text-decoration: underline;
 }
 /* animations */

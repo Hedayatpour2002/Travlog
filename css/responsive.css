@@ -147,8 +147,31 @@
     width: 3.2rem;
     height: 3.2rem;
   }
-  .subscribe__shape{
+  .subscribe__shape {
     display: block;
+  }
+
+  /* footer */
+  .footer {
+    padding: 6.4rem 0;
+  }
+  .footer__desc {
+    font-size: 2.3rem;
+  }
+
+  .footer__item__title svg {
+    display: none;
+  }
+  .footer__item__title {
+    text-decoration: none !important;
+  }
+  .footer__item__links {
+    height: auto;
+  }
+  .footer__items {
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
   }
 }
 @media (min-width: 992px) {
@@ -313,6 +336,19 @@
   .offer__item {
     flex-direction: row;
     align-items: center;
+  }
+
+  /* footer */
+  .footer {
+    flex-direction: row;
+    gap: 3.4rem;
+    justify-content: space-between;
+  }
+  .footer__wrapper {
+    max-width: 50%;
+  }
+  .footer__social {
+    margin-top: 3.2rem;
   }
 }
 @media (min-width: 1400px) {

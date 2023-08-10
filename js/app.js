@@ -91,3 +91,14 @@ subBtnElm.addEventListener("click", (e) => {
 inputElem.addEventListener("keydown", () => {
   inputWrapperElem.classList.remove("subscribe__input-wrapper--red");
 });
+
+// footer
+let footerElem = $.querySelectorAll(".footer__item");
+
+footerElem.forEach((item) => {
+  item.addEventListener("click", (e) => {
+    if (e.target.nodeName === "P" || e.target.nodeName === "svg") {
+      item.classList.toggle("footer__item--active");
+    }
+  });
+});
