@@ -69,7 +69,6 @@
   }
   .services__items {
     flex-direction: row;
-    padding: 0;
   }
   .services__item {
     width: 33%;

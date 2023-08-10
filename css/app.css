@@ -395,7 +395,6 @@ button {
   justify-content: center;
   flex-direction: column;
   gap: 1.6rem;
-  padding: 0 3.2rem 0;
 }
 .services__item {
   display: flex;
@@ -767,9 +766,13 @@ button {
 }
 .footer__item--active {
 }
-.footer__item--active .footer__item__links {
-  height: auto;
+.footer__item--active:nth-child(2) .footer__item__links {
+  height: 21rem;
 }
+.footer__item--active .footer__item__links {
+  height: 15rem;
+}
+
 .footer__item--active .footer__item__title svg {
   transform: rotate(-180deg);
 }
@@ -792,6 +795,7 @@ button {
   gap: 3.2rem;
   height: 0;
   overflow: hidden;
+  transition: all 0.3s;
 }
 .footer__item__link {
   font-family: Inter;
