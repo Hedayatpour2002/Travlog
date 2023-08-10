@@ -172,6 +172,9 @@
     align-items: start;
     justify-content: space-between;
   }
+  .footer__shape{
+    display: block;
+  }
 }
 @media (min-width: 992px) {
   .container {

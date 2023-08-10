@@ -729,6 +729,13 @@ button {
   flex-direction: column;
   padding: 3.2rem 0rem;
   gap: 6.4rem;
+  position: relative;
+}
+.footer__shape {
+  display: none;
+  position: absolute;
+  right: -30rem;
+  top: -5rem;
 }
 .footer__wrapper {
   display: flex;
