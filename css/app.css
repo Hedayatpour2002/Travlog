@@ -705,6 +705,7 @@ button {
   border: none;
   outline: none;
   font-size: 1.8rem;
+  width: 100%;
 }
 
 .subscribe__input::placeholder {
